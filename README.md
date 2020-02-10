@@ -1,24 +1,21 @@
-# README
+Apres telecharger le dossier,sur terminal
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+bundle install`
 
-Things you may want to cover:
+### Database creation
 
-* Ruby version
+`rails db:create`
+`rails db:migrate`
 
-* System dependencies
+### Database initialisation
 
-* Configuration
+`rails db:seed`
 
-* Database creation
+## 🔥 Connexion au site
 
-* Database initialization
+`rails server`
 
-* How to run the test suite
+Une fois le server connecté, rendez-vous sur :
 
-* Services (job queues, cache servers, search engines, etc.)
+http://localhost:3000/
 
-* Deployment instructions
-
-* ...
